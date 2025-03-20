@@ -4,3 +4,6 @@ full_name = input("Please enter your full name: ")
 
 #Converts the full name to proper casing
 proper_name = full_name.title()
+
+#Prints the full name in proper casing
+print(proper_name)
