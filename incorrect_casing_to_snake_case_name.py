@@ -6,3 +6,5 @@ full_name = input("Please enter your full name: ")
 full_name = full_name.lower()
 
 #Then using .join to join the full name with underscore
+full_name = "_".join(full_name.split())
+print(full_name)
